@@ -1,0 +1,419 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category> <pattern> HELLO </pattern> <template> Hello There! How can i Help you ? Please Choose from the following !! 
+                                                     1)Search Games 
+                                                     2)Place Order 
+                                                     3)About Me
+                                                     4)Track order please for this reply with "TRACK MY ORDER"
+                                                      </template> </category>
+
+    
+    <category> <pattern> HI </pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern> HII </pattern> <template> <srai> HELLO </srai> </template> </category> 
+    <category> <pattern> HI THERE</pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern> HI THERE *</pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern> HELLO * </pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern>  * HELLO </pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern> HEY * </pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern> * HEY </pattern> <template> <srai> HELLO </srai> </template> </category>
+    <category> <pattern> HEY </pattern> <template> <srai> HELLO </srai> </template> </category>
+
+
+    <category> <pattern> SEARCH GAMES</pattern> <template> Thanks for Choosing . I Wanna know Which category are you looking for . Choose From the following
+                                                 1)Particular Game 
+                                                 2)Trending games 
+                                                 3)Genre specific
+                                                 4)series based games    </template> 
+    </category>
+    
+
+    <category> <pattern> SEARCH * </pattern> <template> Thanks for Choosing . I Wanna know Which category are you looking for . Choose From the following
+                                                 1)Particular Game 
+                                                 2)Trending games 
+                                                 3)Genre specific
+                                                 4)series based games    </template> 
+    </category> 
+
+    <category> <pattern>  * SEARCH </pattern> <template> Thanks for Choosing . I Wanna know Which category are you looking for . Choose From the following
+                                                 1)Particular Game 
+                                                 2)Trending games 
+                                                 3)Genre specific
+                                                 4)series based games    </template> 
+    </category>
+
+
+
+    <category> <pattern> PARTICULAR GAME </pattern> <template> OKAY!! Which game are you looking For? Reply with name of the game Please .. </template> </category>
+    <category> <pattern> PARTICULAR GAME * </pattern> <template> OKAY!! Which game are you looking For? Reply with name of the game Please .. </template> </category>
+    <category> <pattern> * PARTICULAR GAME </pattern> <template> OKAY!! Which game are you looking For? Reply with name of the game Please .. </template> </category>
+
+
+
+
+
+    <category> <pattern> SPACE INVADERS </pattern> <template> <random> <li>it's good arcade game . it's been a popular game a while . you would definetly love to play it .</li>
+                                                                       <li>Well its a very beautiful game . it's steam rating is 8/10 . you have definetely chosen good dame </li> </random></template> </category>      
+    <category> <pattern> SPACE INVADERS * </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> * SPACE INVADERS </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> STREET FIGHTERS </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> STREETFIGHTER * </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> STREET FIGHTERS * </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> *  STREET FIGHTERS </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> DONKEY KONG</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> DONKEY KONG *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> DONKEYKONG</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> * DONKEY KONG</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> ASTEROID</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> ASTEROIDS *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> * ASTEROIDS </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> TEKKEN </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> TEKKEN *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> * TEKKEN </pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>   
+    <category> <pattern> MORTAL KOMBAT</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>     
+    <category> <pattern> MORTAL KOMBAT *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>
+    <category> <pattern> * MORTAL KOMBAT</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>  
+    <category> <pattern> MORTALKOMBAT</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category> 
+    <category> <pattern> PAC-MAN</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>         
+    <category> <pattern> PAC-MAN *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category> 
+    <category> <pattern>* PAC-MAN</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>  
+    <category> <pattern> PACMAN</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>         
+    <category> <pattern> PACMAN *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>         
+    <category> <pattern> * PACMAN</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>   
+    <category> <pattern> METAL SLUG</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category> 
+    <category> <pattern> METALSLUG</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>         
+    <category> <pattern> METAL SLUG *</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>         
+    <category> <pattern> * METAL SLUG</pattern> <template> <srai> SPACE INVADERS </srai> </template> </category>         
+    
+
+
+    <category> <pattern> OVERWATCH </pattern> <template> <random> <li> you have chosen top shooting game . its in top trending games a while . armed with best piece of weapons and graphics . it's fps is also good . it's steam rating is 9/10 . </li> <li> Dive into one of the giant arenas and use all your skills to knock out the competition. Secrets, vehicles, and strategic outposts grant a number of unique possibilities, and it’s up to you to outsmart the opposing team. </li> <li>Grab a battle pass today and knock out your opponents to win shards, cosmetics, and additional loot! A solid choice if you want to jump in the game without the strain on your wallet.</li> </random> </template> </category>
+
+    <category> <pattern> OVERWATCH * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern>* OVERWATCH  </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> COUNTER STRIKE </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> COUNTER STRIKE *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * COUNTER STRIKE </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> COUNTERSTRIKE </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> COUNTERSTRIKE *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>                          
+    <category> <pattern> * COUNTERSTRIKE </pattern> <template> <srai> OVERWATCH </srai> </template> </category>                                                                   
+    <category> <pattern> CALL OF DUTY  </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> CALL OF DUTY * </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> * CALL OF DUTY  </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> CALLOFDUTY  </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> CALLOFDUTY *  </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * CALLOFDUTY  </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> FAR CRY</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> FAR CRY *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern>* FAR CRY</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> FARCRY</pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> FARCRY *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * FARCRY </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> TITANFALL</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> TITANFALL*</pattern> <template> <srai> OVERWATCH </srai> </template> </category>   
+    <category> <pattern> * TITANFALL</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> BATTLEFIELD</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> BATTLEFIELD *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> *BATTLEFIELD</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> DESTINY</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> DESTINY *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * DESTINY</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> DOOM</pattern> <template> <srai> OVERWATCH </srai> </template> </category>   
+    <category> <pattern> DOOM *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * DOOM</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> HALF-LIFE</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> HALF-LIFE * *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>  
+    <category> <pattern> * HALF-LIFE </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> HALFLIFE </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> HALFLIFE * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern>  PUBG </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> * PUBG </pattern> <template> <srai> OVERWATCH </srai> </template> </category>  
+    <category> <pattern>  PUBG * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>  
+    <category> <pattern> PREY </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * PREY </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern>  PREY * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> OUAKE CHAMPIONS </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> OUAKE CHAMPIONS  *</pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * OUAKE CHAMPIONS </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> MODERN COMBAT </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> MODERN COMBAT * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * MODERN COMBAT </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> WOLFENSTEIN </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> WOLFENSTEIN * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * WOLFENSTEIN </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+    <category> <pattern> TEAM FORTRESS </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> TEAM FORTRESS * </pattern> <template> <srai> OVERWATCH </srai> </template> </category>
+    <category> <pattern> * TEAM FORTRESS  </pattern> <template> <srai> OVERWATCH </srai> </template> </category> 
+
+
+    <category> <pattern> FORZA HORIZON 4 </pattern> <template> <random> <li> You can take part in traditional races, seasonal championships, co-op campaigns, stunt jumps, and endurance tests in a variety of speedy and stylish vehicles ranging from modified transit vans to one-off hypercars. </li> <li> Coming up on a gentle right-hand corner, your view shifts a bit as your driver avatar looks right into the apex. For a sharper corner, your view swings a bit more so you have a sense of what you’re driving into, yet it doesn’t feel disorienting at all. It feels natural.</li> <li> Slightly Mad know this. They are, it seems, just as frustrated by the driving sim genre’s propensity to equate challenge with the sensation of driving on treadless tires on a slab of melting ice set at an angle of 45 degrees. So here, cars actually go around the corners, even when you give the throttle some beans. </li> </random> </template> </category> 
+
+
+    <category> <pattern> FORZA HORIZON 4 * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> * FORZA HORIZON 4  </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> FORZAHORIZON4 </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> FORZAHORIZON4 * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> * FORZAHORIZON4 </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> DIRT RALLY</pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> DIRT RALLY *</pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> * DIRT RALLY </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> SHIFT </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> SHIFT *</pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>  
+    <category> <pattern> * SHIFT </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> PROJECT CARS  </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> PROJECT CARS * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> * PROJECT CARS </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> NEED FOR SPEED </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> NEED FOR SPEED * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern>  * NEED FOR SPEED </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>  
+    <category> <pattern> F1 *</pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern>  * F1 </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>  
+    <category> <pattern> IRACING </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>  
+    <category> <pattern> IRACING * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category>
+    <category> <pattern> ASSETTO * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> * ASSETTO </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> FORZA * </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+    <category> <pattern> * FORZA </pattern> <template> <srai> FORZA HORIZON 4 </srai> </template> </category> 
+
+
+
+
+    <category> <pattern> NBA </pattern> <template> <random > <li> its best sport game with multiplayer scheme . with real time experience you would love to play it . </li>
+                                                             <li> best simulation game . its in top trending games . its steam rating is 9/10 . competing with people all around the world gives you best experience . </li> </random> </template> </category>
+    <category> <pattern> NBA * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * NBA  </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> FIFA </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> FIFA * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * FIFA</pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> ROCKET LEAGUE </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> ROCKET LEAGUE * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> NFL </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> NFL * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * NFL  </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> WWE2K * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * WWE2K * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> WWE 2K * </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * WWE 2K  </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> CRICKET</pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> CRICKET *</pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * CRICKET</pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> PRO EVOLUTION SOCCER </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> PRO EVOLUTION SOCCER *</pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * PRO EVOLUTION SOCCER </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> NHL </pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> NHL *</pattern> <template> <srai> NBA </srai> </template> </category >
+    <category> <pattern> * NHL</pattern> <template> <srai> NBA </srai> </template> </category >
+
+
+
+
+
+
+    <category> <pattern> GRAND THEFT AUTO 5 </pattern> <template> <random> <li> Tons to do , Gorgeous graphics , Likeable protagonists , Dialogue options , Satisfying fighting , Plenty of weapons/armour combinations. </li> <li>Nowadays, people are playing games into their forties and fifties; they have the money to buy new hardware, but they may not have the time or desire to seek out fresh gaming experiences.</li> <li>When you purchase a new console, this game is just there on the store, tempting fans to download it .</li> </random> </template> </category>
+
+    <category> <pattern> GRAND THEFT AUTO * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * GRAND THEFT AUTO  </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> GTA * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * GTA </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> PRINCE OF PERSIA  </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> PRINCE OF PERSIA * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * PRINCE OF PERSIA </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> BATMAN </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> BATMAN * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> ASSASSIN'S CREED </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> ASSASSIN'S CREED * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * ASSASSIN'S CREED </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> MAX PAYNE </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> MAX PAYNE * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> TOM RAIDER * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * TOM RAIDER </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> GOD OF WAR </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> GOD OF WAR *</pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * GOD OF WAR </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> DEVIL MAY CRY </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> DEVIL MAY CRY *</pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * DEVIL MAY CRY </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> VANQUISH </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> VANQUISH * </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> * VANQUISH </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> NINJA GAIDEN </pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+    <category> <pattern> NINJA GAIDEN *</pattern> <template> <srai> GRAND THEFT AUTO 5 </srai> </template> </category>
+
+
+    <category> <pattern> ABOUT YOU </pattern> <template> I am bot named JACK SPARROW . I AM NOT A SELFISH PIRATE . I AM BOT SILLY !! </template> </category>
+    <category> <pattern> WHO ARE YOU </pattern> <template> <srai> ABOUT YOU </srai> </template> </category>
+    <category> <pattern> WHAT ARE YOU </pattern> <template> <srai> ABOUT YOU </srai> </template> </category>
+    <category> <pattern> TELL ME ABOUT YOURSELF </pattern> <template> <srai> ABOUT YOU </srai> </template> </category>
+
+
+    <category> <pattern> BYE </pattern> <template> PLEASED TO HELP YOU SIR . BYE THEN </template></category> 
+    <category> <pattern> * BYE </pattern> <template> PLEASED TO HELP YOU SIR . BYE THEN </template></category>
+    <category> <pattern> BYE * </pattern> <template> PLEASED TO HELP YOU SIR . BYE THEN </template></category>
+
+    <category> <pattern> TRENDING GAMES </pattern> <template> OKAY i will show you top 20 trending games of 2019 
+
+    "APEX LEGENDS" , "Rainbow Six Siege" , "Overwatch" , "Fortnite Battle Royale" , "Rocket League" , "PUBG" , "Hearthstone" , "League of Legends" , "Battlefield 1 and Battlefield 5"
+    , "Doom Eternal" , "Warhammer: Vermintide 2" , "Dusk" , "Grand Theft Auto 5" , "Assassin's Creed Odyssey" , "Dishonored 2" , "Hitman 2" , "The Witcher 3: Wild Hunt" , "Dark Souls 3"
+     , "Forza Horizon 4" , "NBA 2K20"  </template> </category>
+
+     <category> <pattern> TOP GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> TOP GAMES * </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> * TOP GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> TOP * GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> BEST GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> BEST GAMES * </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> BEST *  GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> * BEST GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> TRENDING GAMES * </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> *  TRENDING GAMES</pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+     <category> <pattern> TRENDING * GAMES </pattern> <template> <srai> TRENDING GAMES </srai> </template> </category>
+
+
+     <category> <pattern> APEX LEGENDS </pattern> <template> <random> <li>it's a top trending game in 2019 . it was given a steam rating of 9/10 . it has gorgeous graphics and has tons to do work . 
+                                                 </li> <li> it's top trending game . you would love to play it . it has dialouge options and gives you real time experience . </li>
+                                                 </random> </template> </category>
+     
+     <category> <pattern> APEX LEGENDS * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> * APEX LEGENDS  </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> APEXLEGENDS  </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> RAINBOW SIX SIEGE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> RAINBOW SIX SIEGE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> RAINBOWSIXSIEGE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> * RAINBOWSIXSIEGE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> RAINBOWSIXSIEGE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> FORTNIGHT BATTLE ROYALE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> FORTNIGHT BATTLE ROYALE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> FORTNIGHTBATTLEROYALE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> FORTNIGHTBATTLEROYALE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> ROCKET LEAGUE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> ROCKET LEAGUE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> ROCKETLEAGUE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> ROCKETLEAGUE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> HEARTHSTONE </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> HEARTHSTONE * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> LEAGUE OF LEGENDS </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> LEAGUE OF LEGENDS *</pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> WARHAMMER * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DUSK </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DUSK * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DISHONOURED </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DISHONOURED * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> HITMAN </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> HITMAN * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> * HITMAN </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> WITCHER  </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> WITCHER * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> * WITCHER </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DARK SOULS * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> * DARK SOULS </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DARKSOULS </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+     <category> <pattern> DARKSOULS * </pattern> <template> <srai> APEX LEGENDS </srai> </template> </category>
+
+
+
+     <category> <pattern> GENRE </pattern> <template> OKAY Thanks for choosing . i will guide you about different genres .1)arcade 2) shooting 3)action 4)racing 5)sports choose from any of above and i will display you genre specific games </template> </category>
+     <category> <pattern> GENRE * </pattern> <template> OKAY Thanks for choosing . i will guide you about different genres .1)arcade 2) shooting 3)action 4)racing 5)sports choose from any of above and i will display you genre specific games </template> </category>
+     <category> <pattern> * GENRE </pattern> <template> OKAY Thanks for choosing . i will guide you about different genres .1)arcade 2) shooting 3)action 4)racing 5)sports choose from any of above and i will display you genre specific games </template> </category>
+
+     <category> <pattern> ARCADE </pattern> <template> some beautiful games for arcade are 1)SPACE INVADERS 2)STREET FIGHTERS AND IT'S SERIES 3)DONKEY KONG 4)ASTEROIDS 5)TEKKEN SERIES
+     6)MORTAL KOMBAT AND IT'S SERIES AS WELL 7) PAC-MAN (WORLD'S BEST GAME ) 8) METAL SLUG </template> </category>
+
+     <category> <pattern> ARCADE * </pattern> <template> <srai> ARCADE </srai> </template> </category>
+     <category> <pattern> * ARCADE  </pattern> <template> <srai> ARCADE </srai> </template> </category>
+
+
+     <category> <pattern> SHOOTING </pattern> <template> some WONDERFUL  games for SHOOTING are 1)OVERWATCH 2)COUNTER STRIKE AND IT'S SERIES 3)CALL OF DUTY AND ALL IT'S SERIES 4)FAR CRY AND ALL IT'S PARTS 5)TITANFALL SERIES
+     6)DESTINY AND IT'S SERIES AS WELL 7) PUBG (WORLD'S BEST GAME ACCORDING TO ME ) 8) DOOM 9)HALF-LIFE 10) PREY 11)QUAKE CAHMPIONS 12)MODERN KOMBAT 13)WOLFENSTEIN 14) TEAM FORTRESS 15)WITCHER AND IT'S SERIES 16) HITMAN (WOW !!)  17)ROCKET LEAGUE 18) LEAGUE OF LEGENDS 19) RAINBOW SIX SIEGE 20) DARKSOUL </template> </category>
+
+     <category> <pattern> SHOOTING * </pattern> <template> <srai> ARCADE </srai> </template> </category>
+     <category> <pattern> * SHOOTING </pattern> <template> <srai> ARCADE </srai> </template> </category>
+
+
+     <category> <pattern> ACTION </pattern> <template> some WONDERFUL  games for SHOOTING are 1)GRAND THEFT AUTO AND ALL PARTS 2)PRINCE OF PERSIA AND IT'S SERIES 3)CALL OF DUTY AND ALL IT'S SERIES 4)FAR CRY AND ALL IT'S PARTS 5)BATMAN  SERIES
+     6)MAX PAYNE AND IT'S SERIES AS WELL 7) ASSASSIN'S CREED (WORLD'S BEST GAME ACCORDING TO ME ) 8) VANQUISH 9)HALF-LIFE 10) DISHONOURED 11)FORTNIGHT BATTLE ROYALE 12)NINJA GAIDEN 13)TOM RAIDER 14) GOD OF WAR AND IT'S PARTS 15)DEVIL MAY CRY AND IT'S SERIES </template> </category>
+
+     <category> <pattern> ACTION * </pattern> <template> <srai> ARCADE </srai> </template> </category>
+     <category> <pattern> * ACTION </pattern> <template> <srai> ARCADE </srai> </template> </category>
+
+
+     <category> <pattern> RACING </pattern> <template> MARVELLOUS  games for RACING are 1)NEED FOR SPEED AND ALL IT'S PARTS 2)FORZA HORIZON AND IT'S SERIES 3)DIRT RALLY  AND ALL IT'S SERIES 4)PROJECT CARS AND ALL IT'S PARTS 5)F1 AND IT'S SERIES
+     6)ASSETTO  AND IT'S SERIES AS WELL 7) IRACING </template> </category>
+
+     <category> <pattern> RACING * </pattern> <template> <srai> ARCADE </srai> </template> </category>
+     <category> <pattern> * RACING </pattern> <template> <srai> ARCADE </srai> </template> </category>
+
+
+      <category> <pattern> SPORTS </pattern> <template> MARVELLOUS  games for SPORTS are 1)NBA  AND ALL IT'S PARTS 2)FIFA AND IT'S SERIES 3)WWE AND ALL IT'S SERIES 4)CRICKET AND ALL IT'S PARTS 5) NHL AND IT'S SERIES
+     6)ROCKET LEAGUE 7) PRO EVOLUTION SOCCER </template> </category>
+
+     <category> <pattern> SPORTS * </pattern> <template> <srai> ARCADE </srai> </template> </category>
+     <category> <pattern> * SPORTS </pattern> <template> <srai> ARCADE </srai> </template> </category>
+
+
+     <category> <pattern> SERIES BASED GAMES </pattern> <template> SOME POPULAR SERIES GAMES ARE "PRINCE OF PERSIA" , "GOD OF WAR" , "CALL OF DUTY" , "FIFA" , "NBA" , "WWE" , "FAR CRY" , "MAX PAYNE" , "WITCHER" ,"BATTLEFIELD" ,"HITMAN" , "ASSASSIN'S CREED" , "BATMAN " , "GTA SERIES" , "NEED FOR SPEED" </template> </category>
+
+
+     <category> <pattern> SERIES * </pattern> <template> <srai> SERIES BASED GAMES </srai> </template> </category>
+     <category> <pattern>  * SERIES  </pattern> <template> <srai> SERIES BASED GAMES </srai> </template> </category>
+
+
+     <category> <pattern> PLACE ORDER </pattern> <template > OKAY FOLLOW THE FOLLOWING PROCEDURE FOR PLACING THE ORDER AND REPLY IN EXACT TEMPLATE :
+     "                NAME _____ PHONE NUMBER ____  GAME ______ MODE OF PAYMENT ____ "  ... DO WRITE WHOLE WHICH IS INDICATED IN COLONS . AFTER 3 HOURS YOU CAN DOWNLOAD GAME AS YOU WILL BE GIVEN PRODUCT KEY FOR GAME AND THEN YOU CAN ENJOY IT  </template> </category>
+
+     <category> <pattern> ORDER </pattern> <template> <srai> PLACE ORDER </srai> </template> </category>
+     <category> <pattern> ORDER * </pattern> <template> <srai> PLACE ORDER </srai> </template> </category>
+     <category> <pattern> * ORDER </pattern> <template> <srai> PLACE ORDER </srai> </template> </category>
+     <category> <pattern> PLACE ORDER * </pattern> <template> <srai> PLACE ORDER </srai> </template> </category>
+     <category> <pattern> * PLACE ORDER </pattern> <template> <srai> PLACE ORDER </srai> </template> </category>
+     <category> <pattern>  PLACE * ORDER </pattern> <template> <srai> PLACE ORDER </srai> </template> </category>
+     
+
+
+     <category> <pattern> NAME * PHONE NUMBER * GAME * MODE OF PAYMENT * </pattern> <template> THANKS FOR PLACING ORDER PLEASE VISIT AGAIN !!!<think><set name = "username"> <star index = "1"/> </set></think> 
+     <think><set name ="phone_number"> <star index="2"/> </set></think>  <think> <set name ="game"> <star index="3"/> </set> </think> <think> <set name ="mod"> <star index="4"/> </set> </think>  </template></category>
+
+     <category> <pattern> TRACK MY ORDER </pattern><template> YOUR ORDER DETAILS ARE name is<get name="username"></get>, phone number is <get name="phone_number"></get> game you opted for <get name="game"></get> and mode of payment you choosed is <get name="mod"></get> </template></category>
+   
+
+
+
+</aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+                                                             
+
+                                                        
+                                                        
+                                                        
+
+
+                                                       
+                                                       
+                                                        
+                                                       
+                                                        
+                                                         
+                                                        
+                                                         
+                                                        
+                                                        
+                                                       
+                                                        
+                                                         
+                                                        
+                                                        
+            
+   
