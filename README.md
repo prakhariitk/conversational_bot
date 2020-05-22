@@ -1,2 +1,2 @@
 # conversational_bot
-contains code for chatbot
+contains code for summer code . 
