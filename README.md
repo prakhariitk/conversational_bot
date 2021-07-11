@@ -13,10 +13,7 @@ The second step in our pipeline is generating conversational responses after we 
 
 References
 1) Deep Speech 2: End-to-End Speech Recognition in English and Mandarin
-
 2) Topic Aware Neural Response Generation
-
 3)Topic Modelling and Event Identification from Twitter Textual Data
-
 4) OpenSubtitles (Dataset)
 
