@@ -7,8 +7,8 @@ A Deep Speech 2 like architecture had been made for this purpose. Eventually we 
 
 Response Generation
 The second step in our pipeline is generating conversational responses after we have recognised input speech content. We tried two distinct response generation models trained on a subset of OpenSubtitles Dataset.
-Seq2Seq with Message Attention
-Topic Aware Seq2Seq with Message Attention
+1) Seq2Seq with Message Attention
+2) Topic Aware Seq2Seq with Message Attention
 
 
 References
